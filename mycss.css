@@ -1,0 +1,16 @@
+body{
+    background: white;
+}
+.primary-background{
+ background: #03DAC5;   
+}
+.d-flex align-items-center{
+    background: grey;
+}
+#category-box {
+    position: sticky;
+    top: 80px; /* Adjust based on navbar height */
+    z-index: 1000;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+}
